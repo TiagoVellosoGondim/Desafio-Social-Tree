@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    
+    background-color: #dcf7ff8a;
+}
+body {
+    margin: 0;
+    padding-top: 38px;
+}
+main {
+        margin: 0 auto;
+    width: 860px;
+    
+    
+}
+p {
+    text-shadow: 0.5px 1px 2px #0000003d;
+    color: #0d00a0ab;
+    font-weight: 300;
+    text-align: center;
+}
+div#p {
+    text-align: center;
+    margin: 13px auto;
+    
+}
+a{ 
+    text-decoration: none;
+    color: #0d00a08a;
+    font-weight: 600;
+    font-size: 16px;
+}
+div.fotoperf {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+    border: 2px solid #534ab68a;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    
+}
+img#fotoperfil {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+    border: 2px ; 
+}
+
+
+.linksprincipais {
+    width: 250px;
+    height: 25px;
+    margin: 20px auto;
+
+    
+}
+
+.linksprin {
+    display: flex;
+    border: 2px solid #534ab68a ;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+.linksprin:hover {
+    text-shadow: 1px 1px 2px #0000001f;
+    -webkit-filter: blur(.5px);
+    filter: blur(.5px);
+}
+
+.socialmidia {
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+div.socialmidia > a {
+   padding: 0 12px;
+   transition: all 0.3s;
+   cursor: pointer;
+}
+
+.socialmidia > a:hover {
+    box-shadow: 2px 2px 4px #0601384d;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    
+}
